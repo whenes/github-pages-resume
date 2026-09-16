@@ -1,0 +1,59 @@
+name: Sync Vercel build repo
+
+# Copies the publishable site into whenes/whenes-portfolio, which Vercel deploys.
+# Only the files listed in SITE_FILES ship; project docs and tooling stay here.
+# PORTFOLIO_DEPLOY_KEY is the private half of a write deploy key on whenes/whenes-portfolio.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: sync-vercel-build
+  cancel-in-progress: false
+
+env:
+  SITE_FILES: index.html en components.html assets
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+        with:
+          path: source
+
+      - name: Checkout build repo
+        uses: actions/checkout@v4
+        with:
+          repository: whenes/whenes-portfolio
+          ssh-key: ${{ secrets.PORTFOLIO_DEPLOY_KEY }}
+          path: build
+
+      - name: Stage publishable files
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir staging
+          for entry in $SITE_FILES; do
+            cp -R "source/$entry" staging/
+          done
+          cp source/deploy/vercel.json source/deploy/README.md staging/
+          rsync -a --delete --exclude .git staging/ build/
+
+      - name: Commit and push build
+        shell: bash
+        working-directory: build
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Build repo already up to date."
+            exit 0
+          fi
+          git commit -m "Build from whenes/github-pages-resume@${GITHUB_SHA::7}"
+          git push
