@@ -1,0 +1,14 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "inter",
+        "createdAt": "2026-09-16T18:13:04.137Z",
+        "reason": "brand-pinned: user asked for a design system based on Steply; D:/steply/steply-sdd-harness-arch/STYLE_GUIDE.md sets Inter as the UI face"
+      }
+    ]
+  }
+}

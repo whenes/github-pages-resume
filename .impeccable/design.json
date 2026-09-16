@@ -1,0 +1,704 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-16T19:31:18.199Z",
+  "title": "Design System: Whenes Oliveira Portfolio (Steply, portfolio edition)",
+  "extensions": {
+    "colorMeta": {
+      "accent-primary": {
+        "role": "primary",
+        "displayName": "Steply Blurple",
+        "canonical": "#5865f2",
+        "light": "#5865f2",
+        "tonalRamp": [
+          "#1a1d52",
+          "#262b7a",
+          "#2f3794",
+          "#3c45a5",
+          "#4752c4",
+          "#5865f2",
+          "#949cf7",
+          "#dfe1fd"
+        ]
+      },
+      "accent-primary-hover": {
+        "role": "primary",
+        "displayName": "Pressed Blurple",
+        "canonical": "#4752c4",
+        "light": "#4752c4",
+        "tonalRamp": [
+          "#1a1d52",
+          "#262b7a",
+          "#2f3794",
+          "#3c45a5",
+          "#4752c4",
+          "#5865f2",
+          "#949cf7",
+          "#dfe1fd"
+        ]
+      },
+      "accent-secondary": {
+        "role": "primary",
+        "displayName": "Periwinkle Signal",
+        "canonical": "#949cf7",
+        "light": "#4752c4",
+        "tonalRamp": [
+          "#1a1d52",
+          "#262b7a",
+          "#2f3794",
+          "#3c45a5",
+          "#4752c4",
+          "#5865f2",
+          "#949cf7",
+          "#dfe1fd"
+        ]
+      },
+      "accent-fill": {
+        "role": "primary",
+        "displayName": "Contact Field Blurple",
+        "canonical": "#4f5bd5",
+        "light": "#4f5bd5",
+        "tonalRamp": [
+          "#1a1d52",
+          "#262b7a",
+          "#2f3794",
+          "#3c45a5",
+          "#4f5bd5",
+          "#5865f2",
+          "#949cf7",
+          "#dfe1fd"
+        ]
+      },
+      "on-accent-button-text": {
+        "role": "primary",
+        "displayName": "Ink Blurple",
+        "canonical": "#2f3794",
+        "light": "#2f3794"
+      },
+      "accent-primary-soft": {
+        "role": "primary",
+        "displayName": "Blurple Tint",
+        "canonical": "rgba(88, 101, 242, 0.2)",
+        "light": "rgba(88, 101, 242, 0.12)"
+      },
+      "accent-success": {
+        "role": "status",
+        "displayName": "Online Green",
+        "canonical": "#23a55a",
+        "tonalRamp": [
+          "#0b3a1f",
+          "#10522c",
+          "#137a3f",
+          "#1a8f4b",
+          "#23a55a",
+          "#4fd18b",
+          "#8fe3b4",
+          "#d6f5e3"
+        ]
+      },
+      "accent-success-soft": {
+        "role": "status",
+        "displayName": "Green Tint",
+        "canonical": "rgba(35, 165, 90, 0.16)",
+        "light": "rgba(35, 165, 90, 0.12)"
+      },
+      "accent-warning": {
+        "role": "status",
+        "displayName": "Signal Amber",
+        "canonical": "#f0b232",
+        "tonalRamp": [
+          "#3d2a00",
+          "#5c4000",
+          "#8a5a00",
+          "#b8820f",
+          "#f0b232",
+          "#f5c35b",
+          "#f9dc9c",
+          "#fdf1d6"
+        ]
+      },
+      "accent-warning-soft": {
+        "role": "status",
+        "displayName": "Amber Tint",
+        "canonical": "rgba(240, 178, 50, 0.14)",
+        "light": "rgba(240, 178, 50, 0.18)"
+      },
+      "accent-danger": {
+        "role": "status",
+        "displayName": "Alert Red",
+        "canonical": "#f23f43",
+        "tonalRamp": [
+          "#4a0c0e",
+          "#7a1518",
+          "#c0262a",
+          "#d93236",
+          "#f23f43",
+          "#ff7b7e",
+          "#ffb3b5",
+          "#ffe3e4"
+        ]
+      },
+      "accent-danger-soft": {
+        "role": "status",
+        "displayName": "Red Tint",
+        "canonical": "rgba(242, 63, 67, 0.16)",
+        "light": "rgba(242, 63, 67, 0.1)"
+      },
+      "bg-app": {
+        "role": "neutral",
+        "displayName": "Console Floor",
+        "canonical": "#1e1f22",
+        "light": "#f2f3f5",
+        "tonalRamp": [
+          "#111214",
+          "#1e1f22",
+          "#232428",
+          "#2b2d31",
+          "#313338",
+          "#3f4147",
+          "#d4d7dc",
+          "#f2f3f5"
+        ]
+      },
+      "bg-base": {
+        "role": "neutral",
+        "displayName": "Panel Base",
+        "canonical": "#2b2d31",
+        "light": "#ffffff"
+      },
+      "bg-surface": {
+        "role": "neutral",
+        "displayName": "Raised Panel",
+        "canonical": "#313338",
+        "light": "#f8f9fa"
+      },
+      "bg-surface-2": {
+        "role": "neutral",
+        "displayName": "Raised Panel 2",
+        "canonical": "#35373c",
+        "light": "#eceef0"
+      },
+      "bg-surface-3": {
+        "role": "neutral",
+        "displayName": "Raised Panel 3",
+        "canonical": "#3f4147",
+        "light": "#e3e5e8"
+      },
+      "bg-sidebar": {
+        "role": "neutral",
+        "displayName": "Sidebar Charcoal",
+        "canonical": "#232428",
+        "light": "#ebedef"
+      },
+      "bg-floating": {
+        "role": "neutral",
+        "displayName": "Void",
+        "canonical": "#111214",
+        "light": "#ffffff"
+      },
+      "bg-hover": {
+        "role": "neutral",
+        "displayName": "Hover Wash",
+        "canonical": "#3a3c42",
+        "light": "#e3e5e8"
+      },
+      "bg-active": {
+        "role": "neutral",
+        "displayName": "Active Wash",
+        "canonical": "#404249",
+        "light": "#d4d7dc"
+      },
+      "font-primary": {
+        "role": "neutral",
+        "displayName": "Primary Text",
+        "canonical": "#f2f3f5",
+        "light": "#060607"
+      },
+      "font-secondary": {
+        "role": "neutral",
+        "displayName": "Body Text",
+        "canonical": "#dbdee1",
+        "light": "#2e3338"
+      },
+      "font-tertiary": {
+        "role": "neutral",
+        "displayName": "Nav Text",
+        "canonical": "#b5bac1",
+        "light": "#4e5058"
+      },
+      "font-muted": {
+        "role": "neutral",
+        "displayName": "Meta Text",
+        "canonical": "#a3a9b2",
+        "light": "#5c5e66"
+      },
+      "font-faint": {
+        "role": "neutral",
+        "displayName": "Faint Text",
+        "canonical": "#868b93",
+        "light": "#6d6f78"
+      },
+      "font-link": {
+        "role": "neutral",
+        "displayName": "Link Cyan",
+        "canonical": "#3cb9ff",
+        "light": "#0558b8"
+      },
+      "font-positive": {
+        "role": "status",
+        "displayName": "Positive Text",
+        "canonical": "#4fd18b",
+        "light": "#137a3f"
+      },
+      "font-warning": {
+        "role": "status",
+        "displayName": "Warning Text",
+        "canonical": "#f5c35b",
+        "light": "#8a5a00"
+      },
+      "font-danger": {
+        "role": "status",
+        "displayName": "Danger Text",
+        "canonical": "#ff7b7e",
+        "light": "#c0262a"
+      },
+      "border-subtle": {
+        "role": "neutral",
+        "displayName": "Chrome Seam",
+        "canonical": "#1a1b1e",
+        "light": "#e3e5e8"
+      },
+      "border-default": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#3a3c42",
+        "light": "#d4d7dc"
+      },
+      "border-strong": {
+        "role": "neutral",
+        "displayName": "Strong Hairline",
+        "canonical": "#4e5058",
+        "light": "#b5bac1"
+      },
+      "border-bright": {
+        "role": "neutral",
+        "displayName": "Hover Hairline",
+        "canonical": "#6d6f78",
+        "light": "#8e9297"
+      },
+      "border-focus": {
+        "role": "primary",
+        "displayName": "Focus Ring",
+        "canonical": "#949cf7",
+        "light": "#4752c4"
+      },
+      "button-secondary-bg": {
+        "role": "neutral",
+        "displayName": "Secondary Button Gray",
+        "canonical": "#4e5058",
+        "light": "#e3e5e8"
+      },
+      "button-secondary-bg-hover": {
+        "role": "neutral",
+        "displayName": "Secondary Button Hover",
+        "canonical": "#6d6f78",
+        "light": "#d4d7dc"
+      },
+      "graph-main": {
+        "role": "neutral",
+        "displayName": "Career Lane",
+        "canonical": "#6d6f78",
+        "light": "#8e9297"
+      },
+      "graph-branch": {
+        "role": "primary",
+        "displayName": "Branch Lane",
+        "canonical": "#5865f2",
+        "light": "#5865f2"
+      },
+      "graph-node-bg": {
+        "role": "neutral",
+        "displayName": "Hollow Node Fill",
+        "canonical": "#2b2d31",
+        "light": "#ffffff"
+      },
+      "code-bg": {
+        "role": "neutral",
+        "displayName": "Code Floor",
+        "canonical": "#1e1f22",
+        "light": "#f2f3f5"
+      },
+      "code-text": {
+        "role": "neutral",
+        "displayName": "Code Text",
+        "canonical": "#dbdee1",
+        "light": "#2e3338"
+      },
+      "code-comment": {
+        "role": "neutral",
+        "displayName": "Code Comment",
+        "canonical": "#8b919a",
+        "light": "#5c5e66"
+      },
+      "code-keyword": {
+        "role": "code",
+        "displayName": "Keyword Violet",
+        "canonical": "#b3a4ff",
+        "light": "#6231c9"
+      },
+      "code-string": {
+        "role": "code",
+        "displayName": "String Green",
+        "canonical": "#7ee0a3",
+        "light": "#137a3f"
+      },
+      "code-function": {
+        "role": "code",
+        "displayName": "Function Blue",
+        "canonical": "#6cc4ff",
+        "light": "#0558b8"
+      },
+      "code-decorator": {
+        "role": "code",
+        "displayName": "Decorator Amber",
+        "canonical": "#f5c35b",
+        "light": "#8a5a00"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The person's name in the profile header, one per page."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section heading titles, the selected company name in the timeline detail panel, and the contact strip question."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Case-study card titles; the role line under the name at weight 500 (16px/500 in the timeline detail)."
+      },
+      "title-sm": {
+        "displayName": "Title Small",
+        "purpose": "Commit titles and education entries."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Profile summary, page lede, timeline detail subject and long prose; line-height 1.6 for summaries, capped at 68ch."
+      },
+      "body-sm": {
+        "displayName": "Body Small",
+        "purpose": "Commit subjects, bullets, repo descriptions, callouts, topbar section links; capped at 58ch."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Badges, tech chips, detail toggles, timeline job tabs (600), Stack side title, detail and site footers, repo meta."
+      },
+      "mono": {
+        "displayName": "Mono",
+        "purpose": "Commit dates, timeline range (14px/500) and inclusive duration, flag keys, file names, topbar path; refs and axis years at 11px."
+      },
+      "code": {
+        "displayName": "Code",
+        "purpose": "Code block bodies."
+      }
+    },
+    "shadows": [
+      {
+        "name": "shadow-xs",
+        "value": "0 1px 2px rgba(0, 0, 0, 0.16)",
+        "light": "0 1px 2px rgba(0, 0, 0, 0.06)",
+        "purpose": "Flag switch thumb."
+      },
+      {
+        "name": "shadow-sm",
+        "value": "0 1px 3px rgba(0, 0, 0, 0.24)",
+        "light": "0 1px 3px rgba(0, 0, 0, 0.1)",
+        "purpose": "Resting cards, flag nodes, HEAD graph node."
+      },
+      {
+        "name": "shadow-md",
+        "value": "0 4px 12px rgba(0, 0, 0, 0.24)",
+        "light": "0 4px 12px rgba(0, 0, 0, 0.1)",
+        "purpose": "Elevated cards, avatar, contact strip."
+      },
+      {
+        "name": "shadow-lg",
+        "value": "0 8px 24px rgba(0, 0, 0, 0.32)",
+        "light": "0 8px 24px rgba(0, 0, 0, 0.15)",
+        "purpose": "Toasts only."
+      },
+      {
+        "name": "live-path-glow",
+        "value": "0 6px 18px color-mix(in srgb, var(--accent-primary) 22%, transparent), var(--shadow-sm)",
+        "purpose": "Active flag node; the only colored shadow."
+      },
+      {
+        "name": "focus-outline",
+        "value": "outline: 2px solid var(--border-focus); outline-offset: 2px",
+        "purpose": "Global keyboard focus; white on the contact strip."
+      }
+    ],
+    "motion": [
+      {
+        "name": "transition-fast",
+        "value": "120ms ease",
+        "purpose": "Hover color, background and border changes; chevron rotation."
+      },
+      {
+        "name": "transition-base",
+        "value": "180ms ease",
+        "purpose": "Flag switch track color; timeline segment opacity and scale, node fill on selection."
+      },
+      {
+        "name": "transition-slow",
+        "value": "240ms ease",
+        "purpose": "Toast entrance duration."
+      },
+      {
+        "name": "ease-out-expo",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Toast entrance, commit details and timeline detail body reveal (360ms), flag thumb slide (320ms), flag node and edge state (400ms), timeline draw-in (900ms lanes, 400ms fades)."
+      },
+      {
+        "name": "flag-flow",
+        "value": "stroke-dashoffset -24 over 900ms linear infinite",
+        "purpose": "Active feature-flag edge. Removed under prefers-reduced-motion."
+      },
+      {
+        "name": "timeline-draw",
+        "value": "transform scaleX(0 to 1) 900ms var(--ease-out-expo), delay 0-500ms by position in time",
+        "purpose": "Career timeline lanes and segments draw left to right on load. Removed under prefers-reduced-motion."
+      },
+      {
+        "name": "timeline-reveal",
+        "value": "opacity 400ms var(--ease-out-expo), delay lane delay + 250ms",
+        "purpose": "Timeline nodes, tabs and refs fade in after their lane; staggered timing dropped after 1.6s. Removed under prefers-reduced-motion."
+      },
+      {
+        "name": "timeline-select",
+        "value": "scaleY(1.5) + opacity 0.55 to 1 over 180ms ease",
+        "purpose": "Selected job segment thickens."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "shell-collapse",
+        "value": "900px",
+        "purpose": "max-width: sidebar becomes a scrolling strip; page padding tightens."
+      },
+      {
+        "name": "timeline",
+        "value": "900px",
+        "purpose": "min-width: horizontal career timeline replaces the vertical log."
+      },
+      {
+        "name": "topbar-nav",
+        "value": "760px",
+        "purpose": "max-width: topbar section links hide."
+      },
+      {
+        "name": "stack",
+        "value": "700px"
+      },
+      {
+        "name": "compact",
+        "value": "600px"
+      }
+    ],
+    "layout": [
+      {
+        "name": "content-width",
+        "value": "1080px",
+        "purpose": "App-shell content column, plus 64px gutters."
+      },
+      {
+        "name": "page-width",
+        "value": "1120px",
+        "purpose": "Single-page portfolio column, plus 48px gutters."
+      },
+      {
+        "name": "topbar-height",
+        "value": "48px"
+      },
+      {
+        "name": "sidebar-width",
+        "value": "240px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Committed action, blurple fill; one per group.",
+      "html": "<button class=\"ds-btn ds-btn-primary\" type=\"button\"><svg class=\"ds-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\"/><path d=\"m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7\"/></svg>Email me</button>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 36px; padding: 8px 16px; border: 1px solid transparent; border-radius: var(--button-radius, 6px); font-family: var(--font-sans, Inter, sans-serif); font-size: 14px; font-weight: 500; line-height: 1; white-space: nowrap; cursor: pointer; transition: background 120ms ease, border-color 120ms ease, color 120ms ease; } .ds-icon { width: 16px; height: 16px; } .ds-btn-primary { background: var(--button-primary-bg, #5865f2); color: var(--button-primary-text, #fff); } .ds-btn-primary:hover { background: var(--button-primary-bg-hover, #4752c4); } .ds-btn:focus-visible { outline: 2px solid var(--border-focus, #949cf7); outline-offset: 2px; }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Gray companion action; shown disabled as the unpublished resume link.",
+      "html": "<button class=\"ds-btn-secondary\" type=\"button\">Resume PDF</button> <a class=\"ds-btn-secondary\" aria-disabled=\"true\">Resume PDF</a>",
+      "css": ".ds-btn-secondary { display: inline-flex; align-items: center; gap: 8px; min-height: 36px; padding: 8px 16px; border: 1px solid transparent; border-radius: 6px; background: var(--button-secondary-bg, #4e5058); color: var(--button-secondary-text, #fff); font-family: var(--font-sans, Inter, sans-serif); font-size: 14px; font-weight: 500; line-height: 1; cursor: pointer; transition: background 120ms ease; } .ds-btn-secondary:hover { background: var(--button-secondary-bg-hover, #6d6f78); } .ds-btn-secondary:focus-visible { outline: 2px solid var(--border-focus, #949cf7); outline-offset: 2px; } .ds-btn-secondary[aria-disabled='true'] { opacity: 0.5; cursor: not-allowed; pointer-events: none; }"
+    },
+    {
+      "name": "Ghost Icon Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Square icon-only action for GitHub, LinkedIn, copy and theme toggle.",
+      "html": "<button class=\"ds-btn-ghost-icon\" type=\"button\" aria-label=\"Copy email address\"><svg viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"8\" y=\"8\" width=\"14\" height=\"14\" rx=\"2\"/><path d=\"M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2\"/></svg></button>",
+      "css": ".ds-btn-ghost-icon { display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px; padding: 0; border: 1px solid transparent; border-radius: 6px; background: transparent; color: var(--button-ghost-text, #dbdee1); cursor: pointer; transition: background 120ms ease, color 120ms ease; } .ds-btn-ghost-icon:hover { background: var(--button-ghost-bg-hover, #3a3c42); color: var(--font-primary, #f2f3f5); } .ds-btn-ghost-icon:focus-visible { outline: 2px solid var(--border-focus, #949cf7); outline-offset: 2px; }"
+    },
+    {
+      "name": "Badges, Refs and Tech Chips",
+      "kind": "chip",
+      "refersTo": "badge-info",
+      "description": "Soft-tint status badges, mono git refs, and hairline tech chips.",
+      "html": "<span class=\"ds-badge ds-badge-info\">Featured</span> <span class=\"ds-badge ds-badge-success\">Shipped</span> <span class=\"ds-badge ds-badge-warning\">Legacy</span> <span class=\"ds-ref ds-ref-head\">HEAD</span> <span class=\"ds-ref ds-ref-branch\">consulting</span> <span class=\"ds-tech\">Spring Boot</span>",
+      "css": ".ds-badge { display: inline-flex; align-items: center; padding: 2px 8px; border-radius: 999px; font-family: var(--font-sans, Inter, sans-serif); font-size: 12px; font-weight: 600; line-height: 18px; white-space: nowrap; } .ds-badge-info { background: var(--accent-primary-soft, rgba(88,101,242,0.2)); color: var(--accent-secondary, #949cf7); } .ds-badge-success { background: var(--accent-success-soft, rgba(35,165,90,0.16)); color: var(--font-positive, #4fd18b); } .ds-badge-warning { background: var(--accent-warning-soft, rgba(240,178,50,0.14)); color: var(--font-warning, #f5c35b); } .ds-ref { display: inline-flex; align-items: center; padding: 1px 8px; border: 1px solid var(--border-strong, #4e5058); border-radius: 999px; font-family: var(--font-mono, 'JetBrains Mono', monospace); font-size: 11px; font-weight: 500; line-height: 16px; color: var(--font-tertiary, #b5bac1); } .ds-ref-head { background: var(--accent-primary, #5865f2); border-color: var(--accent-primary, #5865f2); color: #fff; } .ds-ref-branch { border-color: color-mix(in srgb, var(--accent-primary, #5865f2) 55%, transparent); color: var(--accent-secondary, #949cf7); } .ds-tech { display: inline-flex; padding: 3px 8px; border: 1px solid var(--border-default, #3a3c42); border-radius: 6px; background: var(--bg-surface-2, #35373c); font-family: var(--font-sans, Inter, sans-serif); font-size: 12px; font-weight: 500; line-height: 18px; color: var(--font-secondary, #dbdee1); }"
+    },
+    {
+      "name": "Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Raised panel with hairline border and resting shadow; repo cards brighten the border on hover.",
+      "html": "<article class=\"ds-card\"><p class=\"ds-card-name\">whenes/placar-basquete</p><p class=\"ds-card-desc\">FIBA electronic scoreboard with a Windows installer and CI releases.</p></article>",
+      "css": ".ds-card { display: flex; flex-direction: column; gap: 12px; padding: 20px; background: var(--bg-surface, #313338); border: 1px solid var(--border-default, #3a3c42); border-radius: var(--card-radius, 8px); box-shadow: var(--shadow-sm, 0 1px 3px rgba(0,0,0,0.24)); transition: border-color 120ms ease; } .ds-card:hover { border-color: var(--border-bright, #6d6f78); } .ds-card-name { font-family: var(--font-mono, 'JetBrains Mono', monospace); font-size: 14px; font-weight: 500; color: var(--font-link, #3cb9ff); } .ds-card-desc { font-family: var(--font-sans, Inter, sans-serif); font-size: 14px; line-height: 1.6; color: var(--font-secondary, #dbdee1); }"
+    },
+    {
+      "name": "Info Callout",
+      "kind": "custom",
+      "refersTo": "callout-info",
+      "description": "Tinted field with a full 1px tinted border; never a left stripe.",
+      "html": "<div class=\"ds-callout\"><svg viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 16v-4M12 8h.01\"/></svg><p><strong>Resume PDF</strong> is not published yet.</p></div>",
+      "css": ".ds-callout { display: flex; gap: 12px; padding: 12px 16px; border: 1px solid color-mix(in srgb, var(--accent-primary, #5865f2) 40%, transparent); border-radius: 6px; background: var(--accent-primary-soft, rgba(88,101,242,0.2)); font-family: var(--font-sans, Inter, sans-serif); font-size: 14px; line-height: 1.45; color: var(--font-secondary, #dbdee1); } .ds-callout svg { margin-top: 2px; color: var(--accent-secondary, #949cf7); } .ds-callout strong { color: var(--font-primary, #f2f3f5); font-weight: 600; }"
+    },
+    {
+      "name": "Sidebar Navigation",
+      "kind": "nav",
+      "refersTo": "sidebar-link",
+      "description": "Steply app-shell sidebar with uppercase group label and washed current link.",
+      "html": "<nav class=\"ds-sidebar\"><p class=\"ds-sidebar-title\">Portfolio</p><ul><li><a class=\"ds-sidebar-link\" href=\"#\" aria-current=\"true\">Profile header</a></li><li><a class=\"ds-sidebar-link\" href=\"#\">Career log</a></li><li><a class=\"ds-sidebar-link\" href=\"#\">Migration case</a></li></ul></nav>",
+      "css": ".ds-sidebar { width: 240px; padding: 16px 12px; background: var(--bg-sidebar, #232428); border-right: 1px solid var(--border-subtle, #1a1b1e); font-family: var(--font-sans, Inter, sans-serif); } .ds-sidebar ul { display: grid; gap: 2px; list-style: none; margin: 0; padding: 0; } .ds-sidebar-title { margin: 0; padding: 0 12px 8px; font-size: 12px; font-weight: 600; letter-spacing: 0.02em; text-transform: uppercase; color: var(--font-muted, #a3a9b2); } .ds-sidebar-link { display: block; padding: 6px 12px; border-radius: 4px; font-size: 14px; color: var(--font-tertiary, #b5bac1); text-decoration: none; transition: background 120ms ease, color 120ms ease; } .ds-sidebar-link:hover { background: var(--bg-hover, #3a3c42); color: var(--font-primary, #f2f3f5); } .ds-sidebar-link[aria-current='true'] { background: var(--bg-active, #404249); color: var(--font-primary, #f2f3f5); font-weight: 500; } .ds-sidebar-link:focus-visible { outline: 2px solid var(--border-focus, #949cf7); outline-offset: 2px; }"
+    },
+    {
+      "name": "Topbar Section Links",
+      "kind": "nav",
+      "refersTo": "topbar-link",
+      "description": "In-page section links in the topbar for single-page layouts without a sidebar; hidden under 760px.",
+      "html": "<header class=\"ds-topbar\"><a class=\"ds-topbar-brand\" href=\"#\"><span class=\"ds-topbar-mark\" aria-hidden=\"true\">WO</span>Whenes Oliveira</a><nav aria-label=\"Sections\"><ul class=\"ds-topbar-nav\"><li><a href=\"#\">Career</a></li><li><a href=\"#\">Case</a></li><li><a href=\"#\">Projects</a></li><li><a href=\"#\">Skills</a></li><li><a href=\"#\">Contact</a></li></ul></nav></header>",
+      "css": ".ds-topbar { display: flex; align-items: center; gap: 12px; height: 48px; padding: 0 16px; background: var(--bg-sidebar, #232428); border-bottom: 1px solid var(--border-subtle, #1a1b1e); font-family: var(--font-sans, Inter, sans-serif); } .ds-topbar-brand { display: inline-flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 600; color: var(--font-primary, #f2f3f5); text-decoration: none; } .ds-topbar-mark { display: grid; place-items: center; width: 24px; height: 24px; border-radius: 6px; background: var(--accent-primary, #5865f2); font-family: var(--font-display, Unbounded, sans-serif); font-size: 10px; font-weight: 700; color: #fff; } .ds-topbar-nav { display: flex; align-items: center; gap: 2px; margin: 0 0 0 16px; padding: 0; list-style: none; } .ds-topbar-nav a { display: block; padding: 6px 12px; border-radius: 4px; font-size: 14px; color: var(--font-tertiary, #b5bac1); text-decoration: none; transition: background 120ms ease, color 120ms ease; } .ds-topbar-nav a:hover { background: var(--bg-hover, #3a3c42); color: var(--font-primary, #f2f3f5); } .ds-topbar-nav a:focus-visible { outline: 2px solid var(--border-focus, #949cf7); outline-offset: 2px; }"
+    },
+    {
+      "name": "Language Switch",
+      "kind": "nav",
+      "refersTo": "lang-switch",
+      "description": "Segmented EN/PT control linking the static page of each language; the current one is aria-current, and following a link keeps the deep-link hash.",
+      "html": "<nav class=\"ds-lang-switch\" aria-label=\"Language\"><a href=\"#\" hreflang=\"en\" lang=\"en\" aria-label=\"English\" aria-current=\"true\">EN</a><a href=\"#\" hreflang=\"pt-BR\" lang=\"pt-BR\" aria-label=\"Português (Brasil)\">PT</a></nav>",
+      "css": ".ds-lang-switch { display: inline-flex; padding: 2px; border: 1px solid var(--border-default, #3a3c42); border-radius: 6px; background: var(--bg-app, #1e1f22); font-family: var(--font-sans, Inter, sans-serif); } .ds-lang-switch a { display: grid; place-items: center; min-width: 32px; height: 24px; padding: 0 8px; border-radius: 4px; font-size: 12px; font-weight: 600; letter-spacing: 0.02em; color: var(--font-muted, #a3a9b2); text-decoration: none; transition: background 120ms ease, color 120ms ease; } .ds-lang-switch a:hover { background: var(--bg-hover, #3a3c42); color: var(--font-primary, #f2f3f5); } .ds-lang-switch a[aria-current='true'] { background: var(--bg-active, #404249); color: var(--font-primary, #f2f3f5); } .ds-lang-switch a:focus-visible { outline: 2px solid var(--border-focus, #949cf7); outline-offset: 2px; }"
+    },
+    {
+      "name": "Career Log Commit",
+      "kind": "custom",
+      "refersTo": "career-log",
+      "description": "One commit on the consulting branch: graph gutter, title, refs, mono date, subject, expandable changes.",
+      "html": "<div class=\"ds-commit\"><span class=\"ds-commit-graph\" aria-hidden=\"true\"><i class=\"ds-lane ds-lane-a\"></i><i class=\"ds-lane ds-lane-b\"></i><i class=\"ds-node\"></i></span><div class=\"ds-commit-body\"><div class=\"ds-commit-head\"><h3 class=\"ds-commit-title\">SUPERO <span>Software Consultant</span></h3><span class=\"ds-ref-head\">HEAD</span><span class=\"ds-commit-date\">Nov 2020 → Present</span></div><p class=\"ds-commit-subject\">Software consulting across enterprise projects: legacy modernization, integrations, troubleshooting.</p><details class=\"ds-commit-details\"><summary>Show 2 changes</summary><ul><li>Feature-flag migration flows validated new backends before switching users.</li><li>Java 8 to 9 migration led end to end.</li></ul></details></div></div>",
+      "css": ".ds-commit { position: relative; display: grid; grid-template-columns: 60px minmax(0, 1fr); font-family: var(--font-sans, Inter, sans-serif); } .ds-commit-graph { position: relative; } .ds-lane { position: absolute; top: 0; bottom: 0; width: 2px; border-radius: 1px; } .ds-lane-a { left: 14px; background: var(--graph-main, #6d6f78); } .ds-lane-b { left: 40px; top: 26px; background: var(--graph-branch, #5865f2); } .ds-node { position: absolute; top: 19px; left: 34px; width: 14px; height: 14px; border-radius: 999px; background: var(--graph-branch, #5865f2); box-shadow: var(--shadow-sm, 0 1px 3px rgba(0,0,0,0.24)); } .ds-commit-body { padding: 12px 0 20px; min-width: 0; } .ds-commit-head { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 12px; } .ds-commit-title { margin: 0; font-size: 16px; font-weight: 600; line-height: 1.2; color: var(--font-primary, #f2f3f5); } .ds-commit-title span { color: var(--font-muted, #a3a9b2); font-weight: 500; } .ds-ref-head { padding: 1px 8px; border-radius: 999px; background: var(--accent-primary, #5865f2); font-family: var(--font-mono, 'JetBrains Mono', monospace); font-size: 11px; font-weight: 500; line-height: 16px; color: #fff; } .ds-commit-date { margin-left: auto; font-family: var(--font-mono, 'JetBrains Mono', monospace); font-size: 12px; font-variant-numeric: tabular-nums; color: var(--font-muted, #a3a9b2); } .ds-commit-subject { max-width: 58ch; margin: 8px 0 0; font-size: 14px; line-height: 1.6; color: var(--font-secondary, #dbdee1); } .ds-commit-details { margin-top: 8px; } .ds-commit-details summary { display: inline-flex; padding: 2px 8px 2px 4px; border-radius: 4px; font-size: 12px; font-weight: 500; color: var(--font-muted, #a3a9b2); cursor: pointer; list-style: none; transition: color 120ms ease, background 120ms ease; } .ds-commit-details summary:hover { color: var(--font-primary, #f2f3f5); background: var(--bg-hover, #3a3c42); } .ds-commit-details summary:focus-visible { outline: 2px solid var(--border-focus, #949cf7); outline-offset: 2px; } .ds-commit-details ul { display: grid; gap: 8px; max-width: 58ch; margin: 12px 0 0; padding-left: 16px; font-size: 14px; line-height: 1.6; color: var(--font-secondary, #dbdee1); }"
+    },
+    {
+      "name": "Career Timeline",
+      "kind": "custom",
+      "refersTo": "timeline-tab",
+      "description": "Horizontal git graph of the career with job tabs and a banded detail panel; progressive enhancement over the career log at 900px and wider.",
+      "html": "<div class=\"ds-tl\"><div class=\"ds-tl-graph\"><span class=\"ds-tl-lane ds-tl-lane-b\"></span><span class=\"ds-tl-lane ds-tl-lane-a\"></span><span class=\"ds-tl-elbow\"></span><span class=\"ds-tl-ref-head\">HEAD</span><span class=\"ds-tl-seg ds-tl-seg-b is-selected\" style=\"left:62%;width:30%\"></span><span class=\"ds-tl-seg ds-tl-seg-b\" style=\"left:40%;width:21%\"></span><span class=\"ds-tl-seg ds-tl-seg-a\" style=\"left:0;width:18%\"></span><i class=\"ds-tl-node ds-tl-node-b is-selected\" style=\"left:62%\"></i><i class=\"ds-tl-node ds-tl-node-b\" style=\"left:40%\"></i><i class=\"ds-tl-node ds-tl-node-a\" style=\"left:0\"></i><div role=\"tablist\" aria-label=\"Career timeline\"><button class=\"ds-tl-job ds-tl-top\" role=\"tab\" aria-selected=\"true\" style=\"left:62%\">TOTVS</button><button class=\"ds-tl-job ds-tl-top\" role=\"tab\" aria-selected=\"false\" tabindex=\"-1\" style=\"left:40%\">Selbetti</button><button class=\"ds-tl-job ds-tl-bottom\" role=\"tab\" aria-selected=\"false\" tabindex=\"-1\" style=\"left:0\">UNISUL</button></div><div class=\"ds-tl-axis\"><span style=\"left:0\">2010</span><span style=\"left:50%\">2018</span></div></div><section class=\"ds-tl-detail\" role=\"tabpanel\"><header class=\"ds-tl-head\"><div><h3 class=\"ds-tl-org\">TOTVS</h3><p class=\"ds-tl-role\">Software Consultant <span class=\"ds-tl-via\">via consulting</span></p></div><p class=\"ds-tl-when\"><strong>Sep 2023 → Aug 2026</strong><span>2 yr 11 mo</span></p></header><div class=\"ds-tl-body\"><p>Enterprise customer portal: ticket workflows and incremental migration of legacy functionality.</p></div><footer class=\"ds-tl-foot\"><span>Use the arrow keys on the graph to move between jobs</span><button class=\"ds-tl-nav\" type=\"button\">Next: Selbetti ›</button></footer></section></div>",
+      "css": ".ds-tl { font-family: var(--font-sans, Inter, sans-serif); } .ds-tl-graph { position: relative; height: 150px; margin: 0 8px; } .ds-tl-lane { position: absolute; right: 0; height: 2px; border-radius: 1px; } .ds-tl-lane-b { top: 44px; left: 40%; background: var(--graph-branch, #5865f2); } .ds-tl-lane-a { top: 100px; left: 0; background: var(--graph-main, #6d6f78); } .ds-tl-elbow { position: absolute; top: 44px; left: calc(40% - 24px); width: 24px; height: 57px; border-right: 2px solid var(--graph-branch, #5865f2); border-bottom: 2px solid var(--graph-branch, #5865f2); border-bottom-right-radius: 14px; transform: scaleY(-1); } .ds-tl-ref-head { position: absolute; top: 25px; right: 0; padding: 1px 8px; border-radius: 999px; background: var(--accent-primary, #5865f2); font-family: var(--font-mono, 'JetBrains Mono', monospace); font-size: 11px; font-weight: 500; line-height: 16px; color: #fff; } .ds-tl-seg { position: absolute; height: 8px; margin-top: -3px; border-radius: 999px; opacity: 0.55; transition: opacity 180ms ease, transform 180ms ease; } .ds-tl-seg-b { top: 44px; background: var(--graph-branch, #5865f2); } .ds-tl-seg-a { top: 100px; background: var(--graph-main, #6d6f78); } .ds-tl-seg.is-selected { opacity: 1; transform: scaleY(1.5); } .ds-tl-node { position: absolute; width: 12px; height: 12px; margin: -6px 0 0 -6px; box-sizing: border-box; border: 2px solid var(--graph-main, #6d6f78); border-radius: 999px; background: var(--graph-node-bg, #2b2d31); } .ds-tl-node-b { top: 45px; border-color: var(--graph-branch, #5865f2); } .ds-tl-node-a { top: 101px; } .ds-tl-node-b.is-selected { background: var(--graph-branch, #5865f2); } .ds-tl-job { position: absolute; display: inline-flex; align-items: center; height: 22px; padding: 0 8px; border: 1px solid transparent; border-radius: 0 4px 4px 0; background: transparent; font: 600 12px/1 var(--font-sans, Inter, sans-serif); white-space: nowrap; color: var(--font-tertiary, #b5bac1); cursor: pointer; transition: background 120ms ease, color 120ms ease, border-color 120ms ease; } .ds-tl-job::before { content: ''; position: absolute; left: -1px; width: 1px; background: var(--border-strong, #4e5058); } .ds-tl-top { top: 4px; } .ds-tl-top::before { top: 100%; height: 13px; } .ds-tl-bottom { top: 114px; } .ds-tl-bottom::before { bottom: 100%; height: 8px; } .ds-tl-job:hover { background: var(--bg-hover, #3a3c42); color: var(--font-primary, #f2f3f5); } .ds-tl-job[aria-selected='true'] { border-color: var(--border-strong, #4e5058); background: var(--bg-active, #404249); color: var(--font-primary, #f2f3f5); } .ds-tl-job[aria-selected='true']::before { background: var(--font-muted, #a3a9b2); } .ds-tl-job:focus-visible { outline: 2px solid var(--border-focus, #949cf7); outline-offset: 2px; } .ds-tl-axis { position: absolute; left: 0; right: 0; top: 142px; border-top: 1px solid var(--border-default, #3a3c42); } .ds-tl-axis span { position: absolute; top: 8px; transform: translateX(-50%); font-family: var(--font-mono, 'JetBrains Mono', monospace); font-size: 11px; font-variant-numeric: tabular-nums; color: var(--font-muted, #a3a9b2); } .ds-tl-detail { margin-top: 40px; overflow: hidden; background: var(--bg-surface, #313338); border: 1px solid var(--border-default, #3a3c42); border-radius: 8px; box-shadow: var(--shadow-sm, 0 1px 3px rgba(0,0,0,0.24)); } .ds-tl-head { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: end; gap: 8px 24px; padding: 24px 24px 20px; border-bottom: 1px solid var(--border-default, #3a3c42); } .ds-tl-org { margin: 0; font-family: var(--font-display, Unbounded, sans-serif); font-size: clamp(22px, 18px + 1vw, 28px); font-weight: 600; line-height: 1.2; letter-spacing: -0.02em; color: var(--font-primary, #f2f3f5); } .ds-tl-role { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 8px 0 0; font-size: 16px; font-weight: 500; color: var(--font-secondary, #dbdee1); } .ds-tl-via { padding: 1px 8px; border: 1px solid color-mix(in srgb, var(--accent-primary, #5865f2) 55%, transparent); border-radius: 999px; font-family: var(--font-mono, 'JetBrains Mono', monospace); font-size: 11px; line-height: 16px; color: var(--accent-secondary, #949cf7); } .ds-tl-when { display: grid; justify-items: end; gap: 2px; margin: 0; font-family: var(--font-mono, 'JetBrains Mono', monospace); font-size: 12px; font-variant-numeric: tabular-nums; color: var(--font-muted, #a3a9b2); } .ds-tl-when strong { font-size: 14px; font-weight: 500; color: var(--font-primary, #f2f3f5); } .ds-tl-body { padding: 20px 24px 24px; } .ds-tl-body p { max-width: 68ch; margin: 0; font-size: 16px; line-height: 1.6; color: var(--font-secondary, #dbdee1); } .ds-tl-foot { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 16px; border-top: 1px solid var(--border-default, #3a3c42); background: var(--bg-surface-2, #35373c); font-size: 12px; color: var(--font-muted, #a3a9b2); } .ds-tl-nav { min-height: 28px; padding: 4px 12px; border: 1px solid transparent; border-radius: 6px; background: transparent; font: 500 12px/1 var(--font-sans, Inter, sans-serif); color: var(--button-ghost-text, #dbdee1); cursor: pointer; transition: background 120ms ease, color 120ms ease; } .ds-tl-nav:hover { background: var(--button-ghost-bg-hover, #3a3c42); color: var(--font-primary, #f2f3f5); } .ds-tl-nav:focus-visible { outline: 2px solid var(--border-focus, #949cf7); outline-offset: 2px; }"
+    },
+    {
+      "name": "Feature Flag Switch",
+      "kind": "custom",
+      "refersTo": "migration-case",
+      "description": "Switch that flips the migration diagram between the legacy and modern request path.",
+      "html": "<button class=\"ds-flag-switch\" type=\"button\" role=\"switch\" aria-checked=\"true\"><span class=\"ds-flag-track\"></span><span class=\"ds-flag-text\"><span class=\"ds-flag-key\">portal.new-backend</span><span class=\"ds-flag-state\">On: modern path</span></span></button>",
+      "css": ".ds-flag-switch { display: inline-flex; align-items: center; gap: 12px; padding: 8px 12px 8px 8px; border: 1px solid var(--border-default, #3a3c42); border-radius: 8px; background: var(--bg-surface-2, #35373c); cursor: pointer; transition: border-color 120ms ease; } .ds-flag-switch:hover { border-color: var(--border-bright, #6d6f78); } .ds-flag-switch:focus-visible { outline: 2px solid var(--border-focus, #949cf7); outline-offset: 2px; } .ds-flag-track { position: relative; width: 36px; height: 20px; border-radius: 999px; background: var(--bg-surface-3, #3f4147); border: 1px solid var(--border-strong, #4e5058); box-sizing: border-box; transition: background 180ms ease; } .ds-flag-track::after { content: ''; position: absolute; top: 2px; left: 2px; width: 14px; height: 14px; border-radius: 999px; background: var(--font-tertiary, #b5bac1); box-shadow: var(--shadow-xs, 0 1px 2px rgba(0,0,0,0.16)); transition: transform 320ms cubic-bezier(0.16, 1, 0.3, 1), background 180ms ease; } .ds-flag-switch[aria-checked='true'] .ds-flag-track { background: var(--accent-primary, #5865f2); border-color: var(--accent-primary, #5865f2); } .ds-flag-switch[aria-checked='true'] .ds-flag-track::after { transform: translateX(16px); background: #fff; } .ds-flag-text { display: grid; text-align: left; } .ds-flag-key { font-family: var(--font-mono, 'JetBrains Mono', monospace); font-size: 12px; color: var(--font-primary, #f2f3f5); } .ds-flag-state { font-family: var(--font-sans, Inter, sans-serif); font-size: 12px; color: var(--font-muted, #a3a9b2); }"
+    },
+    {
+      "name": "Contact Strip",
+      "kind": "custom",
+      "refersTo": "contact-strip",
+      "description": "The single full accent field per page, with inverted on-accent buttons.",
+      "html": "<aside class=\"ds-contact\"><div><h3 class=\"ds-contact-title\">Have a system that can't stop while it changes?</h3><p class=\"ds-contact-text\">Pick the channel you prefer.</p></div><div class=\"ds-contact-actions\"><a class=\"ds-btn-on-accent\" href=\"#\">Email me</a><a class=\"ds-btn-on-accent-outline\" href=\"#\">LinkedIn</a></div></aside>",
+      "css": ".ds-contact { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 24px; padding: 40px 32px; border-radius: 12px; background: var(--accent-fill, #4f5bd5); box-shadow: var(--shadow-md, 0 4px 12px rgba(0,0,0,0.24)); color: #fff; } .ds-contact-title { margin: 0; font-family: var(--font-display, Unbounded, sans-serif); font-size: clamp(22px, 18px + 1vw, 28px); font-weight: 600; line-height: 1.2; letter-spacing: -0.02em; } .ds-contact-text { max-width: 52ch; margin: 12px 0 0; font-family: var(--font-sans, Inter, sans-serif); font-size: 14px; line-height: 1.6; color: rgba(255,255,255,0.86); } .ds-contact-actions { display: grid; grid-template-columns: repeat(2, auto); gap: 8px; } .ds-btn-on-accent, .ds-btn-on-accent-outline { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 12px 24px; border: 1px solid transparent; border-radius: 6px; font-family: var(--font-sans, Inter, sans-serif); font-size: 16px; font-weight: 500; line-height: 1; text-decoration: none; transition: background 120ms ease, border-color 120ms ease; } .ds-btn-on-accent { background: #fff; color: var(--on-accent-button-text, #2f3794); } .ds-btn-on-accent:hover { background: color-mix(in srgb, #fff 88%, var(--accent-fill, #4f5bd5)); } .ds-btn-on-accent-outline { background: transparent; border-color: rgba(255,255,255,0.5); color: #fff; } .ds-btn-on-accent-outline:hover { background: rgba(255,255,255,0.14); border-color: #fff; } .ds-contact :focus-visible { outline: 2px solid #fff; outline-offset: 2px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Night Console Changelog",
+    "overview": "The portfolio is a Steply app surface, not a personal-brand page: a dark developer console of stacked charcoal layers, a 48px topbar, and content that reads like tooling. The career is rendered as version history (a git graph with a gray main career lane and a blurple consulting branch whose client placements are commits on it), and the migration story is rendered as a working feature flag that flips a request between a legacy and a modern backend. The materials of software work (refs, commits, lanes, flags, code blocks, repo cards) are the ornament; nothing decorative is added on top.\n\nDensity is moderate and screen-like: 14px supporting copy, 16px body, a strict 4px spacing scale, 1px hairline borders at every structural seam, and soft low-offset shadows. One blurple accent carries every committed action and every \"this is the live path\" signal; the rest of the palette is neutral gray, with status hues appearing only as soft tints. Unbounded appears only in a handful of short display lines, so its wide geometric letterforms read as a signature rather than a texture.\n\nTwo surfaces share one stylesheet set. The reference page (components.html) wears the full app shell with a 240px sidebar; the public portfolio (index.html) is a single-column page under the same topbar, which carries section links instead of a sidebar. On wide screens the career reads as a horizontal git graph across time with a tabbed detail panel; the vertical commit log underneath remains the no-JavaScript and narrow-screen rendering of the same content. Tokens and names derive from the Steply design system (STYLE_GUIDE.md): the same variable names, 4px scale, Inter, dark default, and `[data-theme='light']` overrides that touch color only. The portfolio departs from Steply deliberately where legibility or restraint required it; those departures are recorded as rules below. The theme follows the stored choice, then the OS preference, then falls back to dark.",
+    "keyCharacteristics": [
+      "Dark-first layered charcoal surfaces; light theme is a color-only override.",
+      "One committed accent (blurple) for primary actions, HEAD refs, the consulting branch lane, and the live flag path.",
+      "Inter for all UI; Unbounded only for short display lines; JetBrains Mono only for code, dates, years, durations, refs, file names and flag keys.",
+      "1px hairlines and 6/8px radii everywhere; pills reserved for badges, refs, lane segments and dots.",
+      "Signature interactions: horizontal career graph with tabbed detail panel, expandable git-graph career log, feature-flag legacy/modern path switch.",
+      "Progressive enhancement: every JavaScript-built view has a complete static rendering underneath.",
+      "WCAG 2.2 AA contrast in both themes; reduced motion removes every animation."
+    ],
+    "rules": [
+      {
+        "name": "The One Voice Rule",
+        "body": "Blurple is the only committed accent. It marks the primary action, HEAD, the consulting branch, and the live path; it never decorates a heading, a divider, or a background wash other than the contact strip. Selection in the timeline is carried by gray washes, a thicker segment and a filled node in the lane's own color, never by painting the gray career lane blurple.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tint Not Fill Rule",
+        "body": "Status color never fills a badge or callout solid. Badges are soft fills with readable status text; callouts are a tinted field plus a full 1px tinted border. This departs from Steply's solid status badges and 4px left-stripe alerts, and it is intentional.",
+        "section": "colors"
+      },
+      {
+        "name": "The Readable Light Rule",
+        "body": "Light theme overrides link, positive, warning, danger, code and focus colors with darker values (#0558b8, #137a3f, #8a5a00, #c0262a, #4752c4) so every text color passes AA on white. Never reuse the dark-theme bright hues as text in light mode.",
+        "section": "colors"
+      },
+      {
+        "name": "The Short Display Rule",
+        "body": "Unbounded is only for lines of a few words: the name, section titles, the selected company in the timeline detail, the contact question, the avatar initials and topbar mark. Never set a paragraph, a button, a tab or a data label in it.",
+        "section": "typography"
+      },
+      {
+        "name": "The Mono Means Machine Rule",
+        "body": "JetBrains Mono is reserved for code, dates, years, durations, git refs, repository and file names, and flag keys. Prose, buttons, tabs and headings never use it.",
+        "section": "typography"
+      },
+      {
+        "name": "The Soft Offset Rule",
+        "body": "Shadows are blurred, vertically offset, and low-opacity. No hard zero-blur offsets, and no zero-offset spread halos around focused or selected elements; focus is a 2px outline at 2px offset in border-focus.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do use the existing semantic classes and tokens before writing new CSS; every page shares tokens.css, base.css and components.css.",
+      "Do keep blurple for the primary action, HEAD, the consulting branch and the live path only (The One Voice Rule).",
+      "Do express status as a soft tint with readable status text and, for callouts, a full 1px tinted border.",
+      "Do override text-bearing colors in `[data-theme='light']` with darker AA-safe values; keep light-theme overrides color-only.",
+      "Do set Unbounded on short display lines only, and JetBrains Mono on code, dates, years, durations, refs, file names and flag keys only.",
+      "Do cap 16px prose at 68ch and 14px prose at 58ch.",
+      "Do draw structure with 1px hairlines and 6px/8px radii, and depth with tonal layers plus the soft shadow scale.",
+      "Do give every animation a `prefers-reduced-motion: reduce` off-switch, and make expandable content work through native details without JavaScript.",
+      "Do build script-driven views as progressive enhancements over complete static markup, reading data attributes from it rather than duplicating content.",
+      "Do make single-select views a real tablist with roving tabindex, arrow/Home/End keys, and deep-linkable hashes that replace rather than push history.",
+      "Do leave resume links `aria-disabled=\"true\"` until the PDF exists."
+    ],
+    "donts": [
+      "Don't use a 4px colored left stripe on callouts or cards; the callout is a tinted field with a full border.",
+      "Don't fill status badges with solid green, amber or red.",
+      "Don't put zero-offset spread halos around focused or active elements; use the 2px focus outline or the offset live path glow.",
+      "Don't use hard, zero-blur offset shadows.",
+      "Don't set body copy, buttons, tabs or labels in Unbounded, or prose in JetBrains Mono.",
+      "Don't fill any block with the accent other than the contact strip.",
+      "Don't add skill bars, percentage meters or a generic hero-plus-project-grid composition; skills are chip lists in a labeled matrix and projects are repo cards.",
+      "Don't extend the career timeline past the current month or let its leader lines cross labels.",
+      "Don't use the dark theme's bright link, status or code hues as text on light surfaces."
+    ]
+  }
+}
