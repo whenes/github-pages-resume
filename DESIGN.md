@@ -449,7 +449,7 @@ The single full accent field on a page: contact-field blurple, 12px radius, rais
 - **Do** give every animation a `prefers-reduced-motion: reduce` off-switch, and make expandable content work through native details without JavaScript.
 - **Do** build script-driven views as progressive enhancements over complete static markup, reading data attributes from it rather than duplicating content.
 - **Do** make single-select views a real tablist with roving tabindex, arrow/Home/End keys, and deep-linkable hashes that replace rather than push history.
-- **Do** ship each language as its own static page (`/` English, `/pt-br/` Brazilian Portuguese) with `<html lang>`, `hreflang` alternates and `og:locale`; keep ids, slugs and structure identical across languages so deep links survive a language switch.
+- **Do** ship each language as its own static page (`/` Brazilian Portuguese, the default; `/en/` English) with `<html lang>`, `hreflang` alternates and `og:locale`; keep ids, slugs and structure identical across languages so deep links survive a language switch.
 - **Do** keep translatable copy in the markup, including both states of stateful components (`data-flag-state="off|on"`); scripts take only interface labels that exist nowhere in the markup from `assets/js/i18n.js`, chosen by `<html lang>`.
 - **Do** leave resume links `aria-disabled="true"` until the PDF exists.
 
