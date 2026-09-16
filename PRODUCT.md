@@ -33,7 +33,7 @@ Not a generalist "full stack dev" page. The resume's distinct record is making o
 ## Capabilities and Constraints
 
 - Static only; any interactivity is client-side JS.
-- Content language: resume source is English. [OPEN] Whether the site ships English only or PT-BR + EN.
+- Content language: Brazilian Portuguese is the default at the site root (`/`); English lives at `/en/` (user decision, 2026-09-16). Resume source is English; the Portuguese copy is a faithful translation of it.
 - [OPEN] Contact form, analytics, custom domain.
 
 ## Brand Commitments
