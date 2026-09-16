@@ -1,6 +1,7 @@
-# GitHub Pages (Jekyll) already skips dot-folders such as .impeccable and .claude.
-# Keep project documentation out of the published site too.
+# GitHub Pages (Jekyll) already skips dot-folders such as .impeccable, .claude and .github.
+# Keep project documentation and the Vercel build scaffolding out of the published site too.
 exclude:
   - PRODUCT.md
   - DESIGN.md
   - README.md
+  - deploy
